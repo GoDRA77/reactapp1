@@ -14,15 +14,22 @@ import Map from '../../components/map/Map';
 import ITSolutions from "../itsection/Itsection.jsx";
 import Robot from "../robo/Robot.jsx";
 import Mobilo from "../mobilograhy/Mobilograhy.jsx";
+import Header from "../../components/header/Header.jsx";
 
 
 const MainPage = () => {
     return (
         <>
-            <ITSolutions/>
-            {/*<Mobilo/>*/}
-            {/*<ITSolutions/>*/}
+
+            <Banner/>
+            <Corusel/>
+            <Speakers/>
+            <Section/>
+            <Map/>
+            
+            <FooterComp/>
         </>
+
     );
 };
 

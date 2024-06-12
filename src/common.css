@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    outline: 4px solid green !important;
+}
 body {
     margin: 0;
     padding: 0;

@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import Header from '../header/Heder.jsx'; // Corrected import path
-import './ITSolutions.css';
-import Rules from "./rules/Rules.jsx"; // Adjust the path to your Rules component
+import Header from '../../components/header/Header.jsx'; // Corrected import path
+import '../ITSolutions.css';
+
 
 const ITSolutions = () => {
     const navigate = useNavigate();
